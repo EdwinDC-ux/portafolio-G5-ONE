@@ -1,0 +1,15 @@
+.about {
+    display: block;
+    color: var(--black);
+    background-color: var(--transparent-blue);
+}
+.about > :not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.about__title {
+    font-size: 2.3rem;
+}
+.about__parrafo {
+    text-align: justify;
+    font-size: 1.8rem;
+}
