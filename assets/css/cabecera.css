@@ -1,0 +1,20 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+}
+.cabecera__logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cabecera__logo > h1 {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.cabecera__contacto {
+    font-size: 1.5rem;
+    color: var(--black);
+}
