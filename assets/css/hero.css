@@ -1,0 +1,25 @@
+.hero {
+    display: block;
+    color: var(--black);
+    
+}
+.hero__picture {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: bisque;
+    border-radius: 100%;
+    background: url(../img/me.jpg) no-repeat center / cover;
+}
+.hero__profile > :not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.hero__profile > h2{
+    font-size: 2.3rem;
+}
+.hero__profile > p {
+    text-align: justify;
+    font-size: 1.8rem;
+}
