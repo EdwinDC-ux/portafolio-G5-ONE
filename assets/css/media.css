@@ -6,12 +6,12 @@
     padding: 0;
     list-style: none;
 }
-.media__item:after {
-    display: inline-block;
-    content: url(../img/arrow.svg);
-}
-.media__item a {
+.media__enlace {
     color: var(--black);
     font-size: 1.8rem;
     font-weight: 500;
+}
+.media__enlace:after {
+    display: inline-block;
+    content: url(../img/arrow.svg);
 }
