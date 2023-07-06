@@ -1,0 +1,19 @@
+.skills {
+    flex-direction: column;
+    color: var(--black);
+}
+.skills > :not(:last-child) {
+    margin-bottom: 3rem;
+}
+.skills__title {
+    font-size: 2.3rem;
+    text-align: center;
+}
+.skills__contenido {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.skills__contenido > :not(:nth-last-child(-n+2)) {
+    margin-bottom: 2rem;
+}
