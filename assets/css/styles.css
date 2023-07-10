@@ -59,3 +59,17 @@ textarea {
 textarea:focus-visible {
     outline: none;
 }
+.boton {
+    border: 2px solid var(--blue);
+    padding: 0 0.5rem;
+    color: var(--white);
+    background-color: var(--blue);
+}
+.boton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.boton--blanco {
+    background-color: transparent;
+    color: var(--blue);
+}
