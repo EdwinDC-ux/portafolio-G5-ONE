@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./assets/css/hobbie.css">
     <link rel="stylesheet" href="./assets/css/formacion.css">
     <link rel="stylesheet" href="./assets/css/experiencias.css">
+    <link rel="stylesheet" href="./assets/css/proyectos.css">
+    <link rel="stylesheet" href="./assets/css/info.css">
 </head>
 <body>
     <header class="cabecera contenedor">
@@ -36,7 +38,7 @@
                 <li class="menu__item"><a href="#proyectos" class="menu__enlace">Proyectos</a></li>
             </ul>
         </nav>
-        <a href="mailto:prueba.contacto@change.meSubject=Interesado%20en%20sus%20servicios" class="cabecera__contacto">Contactame</a>
+        <a href="mailto:prueba.contacto@change.me" class="cabecera__contacto">Contactame</a>
     </header>
     <main>
         <section class="contenedor hero">
@@ -118,7 +120,7 @@
                 </div>
             </div>
         </section>
-        <section class="contenedor formacion">
+        <section class="contenedor formacion" id="educacion">
             <h2 class="formacion__titulo">Formación académica</h2>
             <div class="experiencias">
                 <article class="experiencia">
@@ -130,6 +132,22 @@
                     <div class="experiencia__imagen"><img src="./assets/img/alura.png" alt="logo alura"></div>
                     <h3 class="experiencia__titulo">Desarrollo web front-end</h3>
                     <p class="experiencia__texto">2023 - Alura</p>
+                </article>
+            </div>
+        </section>
+        <section class="contenedor proyectos" id="proyectos">
+            <h2 class="proyectos__titulo">Experiencia profesional</h2>
+            <div class="proyectos__items">
+                <article class="proyecto">
+                    <div class="proyecto__imagen"><img src="./assets/img/Encriptador.png" alt="proyecto encriptador"></div>
+                    <div class="info">
+                        <h3 class="info__titulo">Encriptador de texto</h3>
+                        <p class="info__subtitulo">Challenge Oracle</p>
+                        <div class="info__botones">
+                            <a href="#" class="boton boton--blanco">Repositorio</a>
+                            <a href="#" class="boton">Ver demo</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
