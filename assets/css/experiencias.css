@@ -1,0 +1,20 @@
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 90%;
+}
+.experiencias > :not(:last-child){
+    margin-bottom: 2rem;
+}
+.experiencia__imagen {
+    background-color: var(--white);
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia__imagen > img {
+    max-height: 70%;
+    max-width: 90%;
+}
