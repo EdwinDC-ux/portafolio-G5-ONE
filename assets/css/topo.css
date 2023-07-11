@@ -1,0 +1,9 @@
+.topo {
+    margin-bottom: 3rem;
+}
+.topo__titulo {
+    font-size: 2.3rem;
+}
+.topo__contenido {
+text-align: justify;
+}
