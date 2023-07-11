@@ -1,0 +1,12 @@
+.contacto {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--transparent-blue);
+    color: var(--black);
+}
+.contacto__imagen {
+    display: none;
+}
+.contacto__data {
+    width: 90%;
+}
