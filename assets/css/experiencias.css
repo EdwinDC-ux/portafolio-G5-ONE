@@ -18,3 +18,13 @@
     max-height: 70%;
     max-width: 90%;
 }
+@media screen and (min-width: 768px) {
+    .experiencias {
+        flex-direction: row;
+        width: 100%;
+        gap: 2rem;
+    }
+    .experiencia {
+        width: calc(33.333% - 2rem);
+    }
+}
