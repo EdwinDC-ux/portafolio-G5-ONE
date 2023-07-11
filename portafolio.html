@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="./assets/css/experiencias.css">
     <link rel="stylesheet" href="./assets/css/proyectos.css">
     <link rel="stylesheet" href="./assets/css/info.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/topo.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodapie.css">
 </head>
 <body>
     <header class="cabecera contenedor">
@@ -153,7 +157,40 @@
         </section>
     </main>
     <footer>
-
+        <section class="contenedor contacto">
+            <div class="contacto__imagen"><img src="./assets/img/contact.png" alt="imagen contacto"></div>
+            <div class="contacto__data">
+                <div class="topo">
+                    <h2 class="topo__titulo">Contacto</h2>
+                    <p class="topo__contenido">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                </div>
+                <form class="formulario">
+                    <fieldset class="formulario__campos">
+                        <div class="formulario__campo">
+                            <label for="input__nombre" class="formulario__label inicial" id="label__nombre">Nombre</label>
+                            <input type="text" class="formulario__input" id="input__nombre">
+                        </div>
+                        <div class="formulario__campo">
+                            <label for="input__e-mail" class="formulario__label inicial" id="label__e-mail">E-mail</label>
+                            <input type="text" class="formulario__input" id="input__e-mail">
+                        </div>
+                        <div class="formulario__campo">
+                            <label for="input__asunto" class="formulario__label inicial" id="label__asunto">Asunto</label>
+                            <input type="text" class="formulario__input" id="input__asunto">
+                        </div>
+                        <div class="formulario__campo">
+                            <label for="input__mensaje" class="formulario__label inicial" id="label__mensaje">Mensaje</label>
+                            <textarea id="input__mensaje" cols="30" rows="10" class="formulario__input formulario__input--text"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="formulario__submit"><input type="submit" value="Enviar mensaje" class="boton"></div>
+                </form>
+            </div>
+        </section>
+        <section class="contenedor rodapie">
+            <p class="rodapie__texto">Desarrollado por Edwin Díaz<br>2023</p>
+        </section>
     </footer>
+    <script src="./assets/js/formulario.js"></script>
 </body>
 </html>
