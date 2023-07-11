@@ -1,7 +1,8 @@
 :root {
     --font: Raleway, sans-serif;
     --black: #464646;
-    --gray: rgba(0,0,0,0.3);
+    --gray: rgba(0,0,0,0.5);
+    --gray3: rgba(0,0,0,0.3);
     --blue: #2a7ae4;
     --transparent-blue: #eaf2fd;
     --background-gray: #f5f5f5;
