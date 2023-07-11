@@ -1,0 +1,7 @@
+.rodapie {
+    background-color: var(--white);
+    justify-content: center;
+}
+.rodapie__texto {
+    font-weight: 700;
+}
