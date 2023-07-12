@@ -28,3 +28,12 @@
         width: calc(33.333% - 2rem);
     }
 }
+
+@media screen and (min-width: 992px) {
+    .experiencia__imagen {
+        height: 20rem;
+    }
+    .experiencia__imagen > img {
+        max-width: 100%;
+    }
+}

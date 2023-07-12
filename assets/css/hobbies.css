@@ -17,3 +17,12 @@
 .hobbies__contenido > :not(:nth-last-child(-n+2)) {
     margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 992px) {
+    .hobbies {
+        padding: 4.8rem;
+    }
+    .hobbies__titulo {
+        font-size: 3.45rem;
+    }
+}

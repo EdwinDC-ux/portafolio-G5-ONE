@@ -75,3 +75,8 @@ textarea:focus-visible {
     background-color: transparent;
     color: var(--blue);
 }
+@media screen and (min-width: 992px) {
+    .contenedor {
+        margin: 0 auto;
+    }
+}

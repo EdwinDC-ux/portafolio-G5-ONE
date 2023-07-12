@@ -1,3 +1,18 @@
 .menu {
     display: none;
 }
+@media screen and (min-width: 992px) {
+    .menu {
+        display: block;
+    }
+    .menu__lista {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        gap: 1.5rem;
+    }
+    .menu__enlace {
+        color: var(--black);
+    }
+}

@@ -16,3 +16,9 @@
         width: calc(33.333% - 2rem);
     }
 }
+
+@media screen and (min-width: 992px) {
+    .skill {
+        width: calc(16.666% - 2rem);
+    }
+}
