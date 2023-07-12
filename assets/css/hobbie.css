@@ -11,3 +11,8 @@
 .hobbie > :not(:last-child) {
     margin-bottom: 1.5rem;
 }
+@media screen and (min-width: 768px) {
+    .hobbie {
+        width: calc(33.333% - 2rem);
+    }
+}

@@ -23,3 +23,19 @@
     text-align: justify;
     font-size: 1.8rem;
 }
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .hero__profile {
+        width: calc(100% - 30rem);
+    }
+    .hero__picture {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 0;
+        align-self: center;
+    }
+}
