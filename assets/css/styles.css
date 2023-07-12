@@ -26,7 +26,8 @@ body {
 /** Generales **/
 .contenedor {
     display: flex;
-    width: 100vw;
+    width: 100%;
+    max-width: 1200px;
     padding: 1.6rem 1.6rem;
 }
 a {
